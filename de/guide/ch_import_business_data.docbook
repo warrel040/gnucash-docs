@@ -14,7 +14,7 @@ Updated:
  Rob Laan <rob.laan@chello.nl>
 
   Translators:
-       Thomas Kriegel <warrel040@gmx.de>
+       Thomas Kriegel <thomas.kriegel0@gmx.de>
 -->
 <chapter id="ch_import_bus_data">
   <title>Geschäftsdaten importieren</title>
@@ -156,21 +156,21 @@ Updated:
 
         <listitem>
           <para><emphasis><prompt>Steuerwirksam</prompt></emphasis> - Ist der Eintrag steuerwirksam? Optional.
-            Verwenden Sie <quote>J</quote> oder <quote>X</quote> für Ja, <quote>N</quote> oder ein
+            Verwenden Sie <quote>Y</quote> oder <quote>X</quote> für Ja, <quote>N</quote> oder ein
             Leerzeichen für Nein.
           </para>
         </listitem>
 
         <listitem>
           <para><emphasis><prompt>Inklusive Steuern</prompt></emphasis> - Ist die Steuer im Artikelpreis enthalten?
-            Optional. Verwenden Sie <quote>J</quote> oder <quote>X</quote> für Ja, <quote>N</quote>
+            Optional. Verwenden Sie <quote>Y</quote> oder <quote>X</quote> für Ja, <quote>N</quote>
             oder ein Leerzeichen für Nein.
           </para>
         </listitem>
 
         <listitem>
-          <para><emphasis><prompt>Steuersatz</prompt></emphasis> - Steuersatz. Optional. Falls der angegebene
-            Steuersatz nicht vorhanden ist, wird es in der Rechnung leer bleiben.
+          <para><emphasis><prompt>Steuertabelle</prompt></emphasis> - Steuertabelle. Optional. Falls die angegebene
+            Steuertabelle in nicht vorhanden ist, wird der Wert in der Rechnung leer bleiben. 
           </para>
         </listitem>
 
@@ -205,7 +205,7 @@ Updated:
 
         <listitem>
           <para><emphasis><prompt>Kumul-Zeilen</prompt></emphasis> - Buchungsteile kumulieren? Optional. Verwenden
-            Sie <quote>J</quote> oder <quote>X</quote> für Ja, <quote>N</quote> oder Leerzeichen
+            Sie <quote>Y</quote> oder <quote>X</quote> für Ja, <quote>N</quote> oder Leerzeichen
             für Nein. Nur relevant in der ersten Zeile einer Rechnung, wenn die Rechnung gebucht
             ist. Falls Sie ein Tabellenkalkulationsprogramm zur Erstellung der Importdatei
             verwenden, sollte kein Leerzeichen für Nein verwendet werden da eine letzte Spalte, die
